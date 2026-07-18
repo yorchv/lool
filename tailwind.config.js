@@ -18,7 +18,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ['var(--font-sans)', ...fontFamily.sans]
+        sans: ['var(--font-body)', ...fontFamily.sans],
+        display: ['var(--font-display)', ...fontFamily.sans]
       },
       keyframes: {
         'accordion-down': {
