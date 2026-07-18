@@ -24,11 +24,17 @@ html {
 
 html,
 body {
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Helvetica Neue',
-    'Helvetica', sans-serif;
+  font-family:
+    var(--font-body),
+    -apple-system,
+    system-ui,
+    BlinkMacSystemFont,
+    'Helvetica Neue',
+    'Helvetica',
+    sans-serif;
   text-rendering: optimizeLegibility;
   -moz-osx-font-smoothing: grayscale;
-  @apply text-white bg-zinc-800 antialiased;
+  @apply bg-[#f7f9fb] text-zinc-950 antialiased;
 }
 
 body {
@@ -39,6 +45,10 @@ body {
 
 a {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+::selection {
+  @apply bg-zinc-950 text-white;
 }
 
 p a {
