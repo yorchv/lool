@@ -55,6 +55,38 @@ p a {
   @apply hover:underline;
 }
 
+.blueprint-grid {
+  background-image: linear-gradient(
+      rgba(22, 23, 20, 0.055) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(22, 23, 20, 0.055) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.factory-button {
+  @apply inline-flex min-h-12 items-center justify-center gap-3 border px-5 text-sm font-extrabold transition duration-150;
+}
+
+.factory-button-dark {
+  @apply border-[#161714] bg-[#161714] text-white hover:bg-orange-700;
+}
+
+.factory-button-light {
+  @apply border-black/25 bg-white/70 text-[#161714] hover:border-black hover:bg-white;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;

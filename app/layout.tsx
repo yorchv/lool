@@ -19,9 +19,9 @@ const body = Outfit({
   weight: ['400', '500', '600', '700', '800']
 });
 
-const title = 'L-O-OL | Focused AI products';
+const title = 'L-O-OL Product Factory | Operating knowledge into software';
 const description =
-  'L-O-OL brings focused AI products together in one place, with each product built for a specific customer workflow.';
+  'Product Factory turns real operating procedures into focused, deployed vertical software—and retains the evidence that it works.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(getURL()),
