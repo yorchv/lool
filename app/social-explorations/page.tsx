@@ -68,12 +68,72 @@ const explorations: Exploration[] = [
     title: 'Soon.',
     direction: 'Minimal suspense',
     filename: '10-soon.png'
+  },
+  {
+    number: '11',
+    title: 'Found it.',
+    direction: 'Archival certainty',
+    filename: '11-found-it.png'
+  },
+  {
+    number: '12',
+    title: 'Important.',
+    direction: 'Museum-grade mundane',
+    filename: '12-important.png'
+  },
+  {
+    number: '13',
+    title: 'Up.',
+    direction: 'Poetic escalation',
+    filename: '13-up.png'
+  },
+  {
+    number: '14',
+    title: 'Proceed.',
+    direction: 'Public-information goose',
+    filename: '14-proceed.png'
+  },
+  {
+    number: '15',
+    title: 'Seems fine.',
+    direction: 'Porcelain confidence',
+    filename: '15-seems-fine.png'
+  },
+  {
+    number: '16',
+    title: 'Very official.',
+    direction: 'Bureaucratic royalty',
+    filename: '16-very-official.png'
+  },
+  {
+    number: '17',
+    title: 'No big deal.',
+    direction: 'Optimistic leverage',
+    filename: '17-no-big-deal.png'
+  },
+  {
+    number: '18',
+    title: 'Present.',
+    direction: 'Botanical leadership',
+    filename: '18-present.png'
+  },
+  {
+    number: '19',
+    title: 'Enough.',
+    direction: 'Controlled abundance',
+    filename: '19-enough.png'
+  },
+  {
+    number: '20',
+    title: 'Not a drill.',
+    direction: 'Literal suspense',
+    filename: '20-not-a-drill.png'
   }
 ];
 
 export const metadata: Metadata = {
   title: 'Social Explorations | L-O-OL',
-  description: 'Ten early visual directions for L-O-OL.'
+  description: 'Twenty early visual directions for L-O-OL.'
 };
 
 export default function SocialExplorationsPage() {
@@ -85,7 +145,7 @@ export default function SocialExplorationsPage() {
             L-O-OL / Direction board 001
           </p>
           <h1 className="mt-6 max-w-5xl font-display text-5xl font-semibold leading-[0.96] tracking-[-0.055em] md:text-8xl">
-            Ten wrong answers
+            Twenty wrong answers
             <span className="block text-orange-400">to the right mood.</span>
           </h1>
           <div className="mt-8 grid gap-5 border-t border-white/15 pt-6 text-white/55 md:grid-cols-2">
