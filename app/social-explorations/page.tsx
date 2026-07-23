@@ -128,12 +128,48 @@ const explorations: Exploration[] = [
     title: 'Not a drill.',
     direction: 'Literal suspense',
     filename: '20-not-a-drill.png'
+  },
+  {
+    number: '21',
+    title: 'Noted.',
+    direction: 'Office-comic optics',
+    filename: '21-noted.png'
+  },
+  {
+    number: '22',
+    title: 'Clear.',
+    direction: 'Instructional vision',
+    filename: '22-clear.png'
+  },
+  {
+    number: '23',
+    title: 'Looks right.',
+    direction: 'Felt-focus mascot',
+    filename: '23-looks-right.png'
+  },
+  {
+    number: '24',
+    title: 'Seen enough.',
+    direction: 'Noir lenses',
+    filename: '24-seen-enough.png'
+  },
+  {
+    number: '25',
+    title: 'Focus.',
+    direction: 'Clay clarity',
+    filename: '25-focus.png'
+  },
+  {
+    number: '26',
+    title: 'Who knows.',
+    direction: 'Spectacled authority',
+    filename: '26-who-knows.png'
   }
 ];
 
 export const metadata: Metadata = {
   title: 'Social Explorations | L-O-OL',
-  description: 'Twenty early visual directions for L-O-OL.'
+  description: 'Twenty-six early visual directions for L-O-OL.'
 };
 
 export default function SocialExplorationsPage() {
@@ -145,7 +181,7 @@ export default function SocialExplorationsPage() {
             L-O-OL / Direction board 001
           </p>
           <h1 className="mt-6 max-w-5xl font-display text-5xl font-semibold leading-[0.96] tracking-[-0.055em] md:text-8xl">
-            Twenty wrong answers
+            Twenty-six wrong answers
             <span className="block text-orange-400">to the right mood.</span>
           </h1>
           <div className="mt-8 grid gap-5 border-t border-white/15 pt-6 text-white/55 md:grid-cols-2">
